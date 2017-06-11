@@ -1,0 +1,9 @@
+h1 {
+font-family: 'LachataNormal';
+font-weight: normal;
+font-style: normal;
+}
+footer {text-align:center;} 
+h2 {margin-top:3%}
+div.sns > a {margin:10px}
+nav {font-size:16px;}
