@@ -163,7 +163,7 @@ What you see here is only the tip of the iceberg. So much work has gone into fix
 
 So if you read through the whole post, you are probably interested in what we do. Consider contributing to the project, the **entry barrier is really low**. [`pmbootstrap`](https://github.com/postmarketOS/pmbootstrap/) automates everything for you and we are more than happy to help you through any issues you encounter in the [chat](https://wiki.postmarketos.org/wiki/Matrix_and_IRC). There are also a lot of [opportunities to help with development](https://github.com/postmarketOS/pmbootstrap/issues), so there's plenty to do. And plenty of fun to have. **Join us and tell your friends!**
 
-### Comments
+## Comments
 * [HackerNews](https://news.ycombinator.com/item?id=15160137)
 * [Reddit](https://www.reddit.com/r/postmarketOS/duplicates/6xrvef/100_days_of_postmarketos/)
 * [Twitter](https://mobile.twitter.com/postmarketOS/status/904249086366404609)
