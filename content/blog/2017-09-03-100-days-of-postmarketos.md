@@ -89,7 +89,7 @@ We have **nine** new devices in the last 50 days! In addition to the two mention
 * [Sony Xperia Z `(sony-yuga)`](https://wiki.postmarketos.org/wiki/Sony_Xperia_Z_(sony-yuga))
 
 
-*Thanks to: [@antonok](https://github.com/antonok), [@ata2001](https://github.com/ata2001), [@Bloo](https://github.com/Bloo), [@drebrez](https://github.com/drebrez), [@kskarthik](https://github.com/kskarthik), [@Victor9](https://github.com/Victor9), [@wfranken](https://github.com/wfranken), [@yuvadm](https://github.com/yuvadm) and everyone who helped them in the chat*
+*Thanks to: [@antonok](https://github.com/antonok), [@ata2001](https://github.com/ata2001), [@Bloo](https://github.com/Bloo), [@drebrez](https://github.com/drebrez), [@kskarthik](https://github.com/kskarthik), [@Victor9](https://github.com/Victor9), [@wfranken](https://github.com/wouter92), [@yuvadm](https://github.com/yuvadm) and everyone who helped them in the chat*
 
 ## Initramfs is Full of New Features
 
