@@ -70,9 +70,9 @@ Speaking of classic interfaces, [@Opendata26](https://github.com/Opendata26) mad
 
 [![Doom on pmOS with freedreno](/static/img/2017-09-03/doom-lg-lenok-thumb.png){: class="fr ml3 mb3" }](/static/img/2017-09-03/doom-lg-lenok.png)
 
-Next up is [@Bloo](https://github.com/Bloo), who decided to port postmarketOS to his **[LG G Watch R](https://wiki.postmarketos.org/wiki/LG_G_Watch_R_(lg-lenok))**, giving us the **first smartwatch port**! In order to take out the watch and shout *"It's time to play Doom!"* whenever asked for the time, he decided to compile and run it on his device too. In the photo on the right, Doom is running in its **native resolution** of 320x240 (compare to the watch at 320x320) in Weston through XWayland. For both the Xperia Z2 and LG G Watch R, [Chocolate Doom](https://www.chocolate-doom.org/) was used and is being packaged for postmarketOS now.
+Next up is [@Bloo](https://github.com/JamesHealdUK), who decided to port postmarketOS to his **[LG G Watch R](https://wiki.postmarketos.org/wiki/LG_G_Watch_R_(lg-lenok))**, giving us the **first smartwatch port**! In order to take out the watch and shout *"It's time to play Doom!"* whenever asked for the time, he decided to compile and run it on his device too. In the photo on the right, Doom is running in its **native resolution** of 320x240 (compare to the watch at 320x320) in Weston through XWayland. For both the Xperia Z2 and LG G Watch R, [Chocolate Doom](https://www.chocolate-doom.org/) was used and is being packaged for postmarketOS now.
 
-*Thanks to: [@Bloo](https://github.com/Bloo), [@Opendata26](https://github.com/Opendata26)*
+*Thanks to: [@Bloo](https://github.com/JamesHealdUK), [@Opendata26](https://github.com/Opendata26)*
 
 ## Other New Devices
 
@@ -89,7 +89,7 @@ We have **nine** new devices in the last 50 days! In addition to the two mention
 * [Sony Xperia Z `(sony-yuga)`](https://wiki.postmarketos.org/wiki/Sony_Xperia_Z_(sony-yuga))
 
 
-*Thanks to: [@antonok](https://github.com/antonok), [@ata2001](https://github.com/ata2001), [@Bloo](https://github.com/Bloo), [@drebrez](https://github.com/drebrez), [@kskarthik](https://github.com/kskarthik), [@Victor9](https://github.com/Victor9), [@wfranken](https://github.com/wouter92), [@yuvadm](https://github.com/yuvadm) and everyone who helped them in the chat*
+*Thanks to: [@antonok](https://github.com/antonok), [@ata2001](https://github.com/ata2001), [@Bloo](https://github.com/JamesHealdUK), [@drebrez](https://github.com/drebrez), [@kskarthik](https://github.com/kskarthik), [@Victor9](https://github.com/Victor9), [@wfranken](https://github.com/wouter92), [@yuvadm](https://github.com/yuvadm) and everyone who helped them in the chat*
 
 ## Initramfs is Full of New Features
 
