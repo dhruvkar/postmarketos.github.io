@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
+{% block link %}
+<link rel="alternate" type="application/atom+xml" title="postmarketOS Blog" href="{{ url_for('atom') }}" />
+{% endblock %}
+
 {% block title %}postmarketOS Blog{% endblock %}
 
 {% block body %}
