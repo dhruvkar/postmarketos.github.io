@@ -61,9 +61,9 @@ A modernized GTK+3 version of Hildon is being worked on at [talk.maemo.org](http
 *Thanks to: [@NotKit](https://github.com/NotKit)*
 
 
-[![Doom on pmOS with freedreno](/static/img/2017-09-03/doom-xperia-z2-thumb.png){: class="fr ml3 mb3" }](/static/img/2017-09-03/doom-xperia-z2.png)
-
 ## "Of Course it Runs Doom!"
+
+[![Doom on pmOS with freedreno](/static/img/2017-09-03/doom-xperia-z2-thumb.png){: class="fr ml3 mb3" }](/static/img/2017-09-03/doom-xperia-z2.png)
 
 Speaking of classic interfaces, [@Opendata26](https://github.com/Opendata26) made an obligatory Doom port. In the photo is his **[Xperia Z2 tablet](https://wiki.postmarketos.org/wiki/Sony_Xperia_Z2_Tablet_(sony-castor-windy))** with a 4.3 kernel and the open source userspace driver **[freedreno](https://github.com/freedreno/freedreno/wiki)**. In addition to running Doom, he also enabled the driver upstream in Alpine's `mesa` package so that all Alpine users can benefit from it! Check out his [/r/postmarketOS post](https://www.reddit.com/6temny/) for more photos of other games running. Even though freedreno provides a FOSS implementation of the userspace portion of the driver, it still requires a proprietary firmware file for 3D acceleration. This test was made with X11, as it currently does not work with a Wayland compositor. Further debug will be required to determine why this is the case!
 
