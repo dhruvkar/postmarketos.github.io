@@ -162,3 +162,8 @@ With over 100 people in the [Matrix/IRC](https://wiki.postmarketos.org/wiki/Matr
 What you see here is only the tip of the iceberg. So much work has gone into fixing bugs, and little improvements, that it would be ridiculous to go through the effort and list them all. The community has grown so fast in such a short time and we have **people with all kinds of skills** on board, ranging from Linux experts to kernel hackers to people who [reverse engineer bootloaders](https://wiki.postmarketos.org/wiki/Mediatek) (hi [@McBitter](https://github.com/McBitter)!). We collaborate with people from other projects as well, such as [@pavelmalchek](https://github.com/pavelmalchek), who is close to using his N900 as a daily driver with his own distribution, recently [just reached out](https://github.com/postmarketOS/pmbootstrap/issues/438) to us.
 
 So if you read through the whole post, you are probably interested in what we do. Consider contributing to the project, the **entry barrier is really low**. [`pmbootstrap`](https://github.com/postmarketOS/pmbootstrap/) automates everything for you and we are more than happy to help you through any issues you encounter in the [chat](https://wiki.postmarketos.org/wiki/Matrix_and_IRC). There are also a lot of [opportunities to help with development](https://github.com/postmarketOS/pmbootstrap/issues), so there's plenty to do. And plenty of fun to have. **Join us and tell your friends!**
+
+### Comments
+* [HackerNews](https://news.ycombinator.com/item?id=15160137)
+* [Reddit](https://www.reddit.com/r/postmarketOS/duplicates/6xrvef/100_days_of_postmarketos/)
+* [Twitter](https://mobile.twitter.com/postmarketOS/status/904249086366404609)
