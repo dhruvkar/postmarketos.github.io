@@ -95,7 +95,7 @@ We have **nine** new devices in the last 50 days! In addition to the two mention
 
 [![on screen keyboard](/static/img/2017-09-03/osk-wave-thumb.gif){: class="fr ml3 mb3" }](/static/img/2017-09-03/osk-wave.gif)
 
-The `initramfs` is a small filesystem with an init script that prepares the environment before it passes control to the init system running in the real root partition. For postmarketOS we use it to **find and optionally unlock the root** partition.
+The `initramfs` is a small filesystem with an `init.sh` file that prepares the environment before it passes control to the init system running in the real root partition. For postmarketOS we use it to **find and optionally unlock the root** partition.
 
 [@craftyguy](https://github.com/craftyguy) and [@MartijnBraam](https://github.com/MartijnBraam) have started to write a new **on-screen keyboard** named [`osk-sdl`](https://github.com/postmarketOS/osk-sdl) from scratch because we couldn't find an existing one that did not depend on heavy GUI libraries. `osk-sdl` will allow us to **unlock** the root filesystem directly with the device's touch screen or physical keyboard (if applicable). It is currently in the process of being integrated into postmarketOS, after which it will fully replace the current method of unlocking via telnet. If unlocking via telnet is a requirement for you, please reach out to us and let us know!
 
