@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>{% block title %}postmarketOS{% endblock %}</title>
+
+    <meta name="description" content="Aiming for a 10 year life-cycle for smartphones">
+    <meta name="keywords" content="postmarketOS">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all">
+
+    <link rel="canonical" href="https://postmarketos.org{{ request.path }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.png') }}">
+    <link href="{{ url_for('static', filename='css/tachyons.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/codehilite.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+  </head>
+  <body{%- if request.path == "/" %} class="homepage"{% endif %}>
+    {% include 'header.html' %}
+    <main class="cf pv4">
+        <div class="mw8 center">
+            {% block body %}
+            {% endblock %}
+        </div>
+    </main>
+    {% block footer %}
+    <footer class="bg-white">
+        <div class="mw8 center w-100 pv4 tc">
+            <h2>Come help us!</h2>
+            <ul class="list center tc pl0 pl3-ns">
+            <li class="dib pa3"><a href="https://wiki.postmarketos.org">Wiki</a></li>
+            <li class="dib pa3"><a href="https://github.com/postmarketOS">GitHub</a></li>
+            <li class="dib pa3"><a href="https://reddit.com/r/postmarketOS">/r/postmarketOS</a></li>
+            <li class="dib pa3"><a href="https://chat.disroot.org/#/room/#postmarketos:disroot.org">#postmarketos:disroot.org</a></li>
+            <li class="dib pa3">#postmarketos on Freenode IRC</li>
+            </ul>
+        </div>
+    </footer>
+    {% endblock %}
+  </body>
+</html>
