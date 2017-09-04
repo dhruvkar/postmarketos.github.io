@@ -5,7 +5,8 @@ import re
 import yaml
 
 from datetime import datetime
-from flask import Flask, render_template, url_for, Response
+from flask import Flask, render_template, url_for, Response, request
+from werkzeug.contrib.atom import AtomFeed
 from os import listdir
 
 
@@ -43,46 +44,57 @@ def reading_time(content):
 def logo_svg():
     return Response(response=logo.create(phone=False), mimetype="image/svg+xml")
 
-def parse_post(post):
+def parse_post(post, external_links=False, create_html=True):
     with open(os.path.join(BLOG_CONTENT_DIR, post)) as handle:
         raw = handle.read()
     frontmatter, content = REGEX_SPLIT_FRONTMATTER.split(raw, 2)
 
     data = yaml.load(frontmatter)
 
-    y, m, d, *title = post[:-3].split('-')
-    slug = '-'.join(title)
+    y, m, d, slug = post[:-3].split('-', maxsplit=3)
 
-    data['url'] = url_for('blog_post', y=y, m=m, d=d, slug=slug)
+    if create_html:
+        data['html'] = markdown.markdown(content, extensions=[
+            'markdown.extensions.extra',
+            'markdown.extensions.codehilite',
+            'markdown.extensions.toc'
+        ])
+
+    data['url'] = url_for('blog_post', y=y, m=m, d=d, slug=slug,
+                          _external=external_links)
     data['reading_time'] = reading_time(content)
 
     return data
 
+def get_posts(**kwargs):
+    posts = sorted(listdir(BLOG_CONTENT_DIR), reverse=True)
+    return (parse_post(post, **kwargs) for post in posts)
 
 @app.route('/blog/')
 def blog():
-    posts = sorted(listdir(BLOG_CONTENT_DIR), reverse=True)
-    posts = map(parse_post, posts)
-    return render_template('blog.html', posts=posts)
+    return render_template('blog.html', posts=get_posts(create_html=False))
 
+@app.route('/blog/feed.atom')
+def atom():
+    feed = AtomFeed(author='postmarketOS bloggers',
+                    feed_url=request.url,
+                    icon=url_for('logo_svg', _external=True),
+                    title='postmarketOS Blog',
+                    url=url_for('blog', _external=True))
+
+    for post in get_posts(external_links=True):
+        feed.add(content=post['html'],
+                 content_type='html',
+                 title=post['title'],
+                 url=post['url'],
+                 # midnight
+                 updated=datetime.combine(post['date'], datetime.min.time()))
+    return feed.get_response()
 
 @app.route('/blog/<y>/<m>/<d>/<slug>/')
 def blog_post(y, m, d, slug):
-    date_str = '-'.join([y, m, d])
-    post_path = '-'.join([date_str, slug])
-    with open('{}/{}.md'.format(BLOG_CONTENT_DIR, post_path.lower()), 'r') as f:
-        text = f.read()
-    frontmatter, body = REGEX_SPLIT_FRONTMATTER.split(text, 2)
-    data = yaml.load(frontmatter)
-    rt = reading_time(body)
-    date = datetime.strptime(date_str, '%Y-%m-%d')
-    html = markdown.markdown(body, extensions=[
-        'markdown.extensions.extra',
-        'markdown.extensions.codehilite',
-        'markdown.extensions.toc'
-    ])
-    return render_template('blog-post.html', title=data['title'], html=html, reading_time=rt, date=date)
-
+    blog = parse_post('-'.join([y, m, d, slug]) + '.md')
+    return render_template('blog-post.html', **blog)
 
 @app.route('/<slug>/')
 def wiki_redirect(slug):
