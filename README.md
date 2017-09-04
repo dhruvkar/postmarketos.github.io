@@ -54,3 +54,5 @@ To run a static site build, run:
 ```
 
 This will generate a static version in `docs/`. Any manual changes to the `docs/` directory will be overridden in the next build.
+
+Note that the `docs/` directory is ignored and not versioned.
