@@ -14,12 +14,12 @@
 
     <link rel="canonical" href="https://postmarketos.org{{ request.path }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
-    <link href="{{ url_for('static', filename='css/tachyons.min.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename='css/codehilite.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
-    {% block link %}{% endblock %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tachyons.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/codehilite.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% block extra_link %}{% endblock %}
   </head>
-  <body{%- if request.path == "/" %} class="homepage"{% endif %}>
+  <body>
     {% include 'header.html' %}
     <main class="cf pv4">
         <div class="mw8 center">
