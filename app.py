@@ -26,7 +26,7 @@ WIKI_REDIRECTS = {
     "usbhook": "Inspecting_the_initramfs",
     "warning-repo": "Troubleshooting#Installed_version_newer_than_the_version_in_the_repositories",
     "warning-repo2": "Troubleshooting#Newer_version_in_binary_package_repositories_than_in_aports_folder",
-    "wiki": "Main_page",
+    "wiki": "Main_Page",
 }
 
 
