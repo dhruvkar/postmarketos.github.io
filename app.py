@@ -18,6 +18,7 @@ REGEX_SPLIT_FRONTMATTER = re.compile(r'^---$', re.MULTILINE)
 
 WIKI_REDIRECTS = {
     "chat": "Matrix_and_IRC",
+    "debug-shell": "Inspecting_the_initramfs",
     "deviceinfo": "Deviceinfo_reference",
     "devicepkg": "Device_specific_package",
     "devices": "Supported_devices",
