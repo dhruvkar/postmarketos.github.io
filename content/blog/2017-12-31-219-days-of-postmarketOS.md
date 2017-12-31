@@ -293,7 +293,6 @@ Tasks that **do require** a mobile device for development:
 
 What a crazy half year of development we have behind us. Who would have thought that this project would have taken off *this much*? That such a big community would have emerged out of nowhere? This is the **work of every single contributor**, we can all be proud of what we have achieved and we have *lots* of potential for the future. Thanks for reading, and now **go party hard on new years eve!**
 
-
 ## Bonus: `install_if`
 *No fancy pictures here, just a little code snippet and possibly boring implementation details. We've moved this one to the bottom because the post has gotten really long again.*
 
@@ -307,3 +306,7 @@ weston() {
 ```
 
 *Thanks to: [@craftyguy](https://github.com/craftyguy), [@kaniini](https://github.com/kaniini), [@MartijnBraam](https://github.com/MartijnBraam), [@ollieparanoid](https://github.com/ollieparanoid), [@PureTryOut](https://github.com/PureTryOut), [@Wouter92](https://github.com/Wouter92)*
+
+## Comments
+* [Reddit](https://www.reddit.com/r/postmarketOS/duplicates/7n6x0a/219_days_of_postmarketos/)
+* [Hacker News](https://news.ycombinator.com/item?id=16039572)
