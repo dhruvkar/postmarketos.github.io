@@ -286,7 +286,7 @@ Tasks that **do require** a mobile device for development:
 * Make [good photos/videos](https://wiki.postmarketos.org/wiki/Making_good_photos) of devices running pmOS for the [wiki](https://wiki.postmarketos.org/wiki/Special:ListFiles) and [/r/postmarketOS](https://www.reddit.com/r/postmarketOS/)
 * [Test pull requests on devices](https://github.com/postmarketOS/pmbootstrap/pulls)
 * [Get cellular modems working](https://github.com/postmarketOS/pmbootstrap/issues/598)
-* [Work on the charging UI](https://github.com/postmarketOS/charging-sdl) for the initramfs (C++, started by [@IanS5](https://github.com/IanS5) and [@pavelmachek](pavelmachek))
+* [Work on the charging UI](https://github.com/postmarketOS/charging-sdl) for the initramfs (C, started by [@IanS5](https://github.com/IanS5) and [@pavelmachek](pavelmachek))
 * Help out [@McBitter](https://github.com/McBitter) with [Mediatek bootloader reverse engineering](https://wiki.postmarketos.org/wiki/Mediatek)
 
 ## Closing Words
