@@ -199,7 +199,7 @@ postmarketOS doesn't use Android's build system, but divides all of its software
 
 [![](/static/img/2017-12/logo-render.png){: class="fl mr3 mb3 mt3"}](https://github.com/postmarketOS/artwork/commit/805d8762426e69c2b1761e9bb2b0993509043c24)
 
-This also means that it is possible to update your postmarketOS installation running on your device now. Keep in mind that we have not reached the point yet where we can verify each update on the device migrates properly from the previous one version, so you will probably have some breakage sooner or later. Kernel updates should work as well, thanks to the **kernel update script** [@ata2001](https://github.com/ata2001) wrote - but right now you will need to invoke it manually.
+This also means that it is possible to update your postmarketOS installation running on your device now. Keep in mind that we have not reached the point yet where we can verify each update on the device migrates properly from the previous version, so you will probably have some breakage sooner or later. Kernel updates should work as well, thanks to the **kernel update script** [@ata2001](https://github.com/ata2001) wrote - but right now you will need to invoke it manually.
 
 *Thanks to: [@ata2001](https://github.com/ata2001),  [@ollieparanoid](https://github.com/ollieparanoid)*
 
