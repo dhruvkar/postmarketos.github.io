@@ -28,9 +28,9 @@ The idea of providing a device specific package for QEMU was introduced back in 
 ```shell
 git clone https://github.com/postmarketOS/pmbootstrap
 cd pmbootstrap
-./pmbootstrap init # choose "qemu-amd64"
-./pmbootstrap install
-./pmbootstrap qemu
+./pmbootstrap.py init # choose "qemu-amd64"
+./pmbootstrap.py install --no-fde
+./pmbootstrap.py qemu
 ```
 *Thanks to: [@mmaret](https://github.com/mmaret), [@MartijnBraam](https://github.com/MartijnBraam), [@PabloCastellano](https://github.com/PabloCastellano)*
 
