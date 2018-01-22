@@ -309,4 +309,4 @@ weston() {
 
 ## Comments
 * [Reddit](https://www.reddit.com/r/postmarketOS/duplicates/7n6x0a/219_days_of_postmarketos/)
-* [Hacker News](https://news.ycombinator.com/item?id=16039572)
+* [Hacker News](https://news.ycombinator.com/item?id=16204775)
