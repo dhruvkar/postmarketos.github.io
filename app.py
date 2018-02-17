@@ -18,6 +18,7 @@ PAGE_CONTENT_DIR = 'content/page'
 REGEX_SPLIT_FRONTMATTER = re.compile(r'^---$', re.MULTILINE)
 
 WIKI_REDIRECTS = {
+    "binfmt_misc": "Troubleshooting#sh:_can.27t_create_.2Fproc.2Fsys.2Ffs.2Fbinfmt_misc.2Fregister:_nonexistent_directory",
     "chat": "Matrix_and_IRC",
     "debug-shell": "Inspecting_the_initramfs",
     "deviceinfo": "Deviceinfo_reference",
