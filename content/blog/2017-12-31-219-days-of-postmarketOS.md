@@ -14,7 +14,7 @@ We want to have another option: **postmarketOS** is a Linux distribution based o
 
 ### Plasma Mobile
 
-[![Plasma Mobile running on the sony-castor-windy with freedreno](/static/img/2017-12/plasma-castor-thumb.gif){: class="fr ml3 mb3" }](/static/video/2017-12/plasma-castor.mp4)
+[![Plasma Mobile running on the sony-castor-windy with freedreno](/static/img/2017-12/plasma-castor-thumb.gif){: class="fr ml3 mb3" rel="nofollow" }](/static/video/2017-12/plasma-castor.mp4)
 
 The Wayland reference compositor [Weston](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)#Weston) was the first interface we [had running on our devices](https://postmarketos.org/static/img/2017-05-26/i9100-filled.jpg). Good enough for a demo, but to get a **real tablet/smartphone experience** we always had an eye on KDE's [**Plasma Mobile**](https://plasma-mobile.org/) project. After countless hours of hard work we are proud to finally present it running **on real devices!**
 
