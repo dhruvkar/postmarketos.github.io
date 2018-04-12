@@ -21,6 +21,7 @@ WIKI_REDIRECTS = {
     "binfmt_misc": "Troubleshooting#sh:_can.27t_create_.2Fproc.2Fsys.2Ffs.2Fbinfmt_misc.2Fregister:_nonexistent_directory",
     "chat": "Matrix_and_IRC",
     "debug-shell": "Inspecting_the_initramfs",
+    "depends": "Troubleshooting:dependencies",
     "deviceinfo": "Deviceinfo_reference",
     "devicepkg": "Device_specific_package",
     "devices": "Supported_devices",
