@@ -27,6 +27,7 @@ WIKI_REDIRECTS = {
     "devices": "Supported_devices",
     "irc": "Matrix_and_IRC",
     "matrix": "Matrix_and_IRC",
+    "merge": "Merge_Workflow",
     "osk-port": "Osk-sdl#Porting_to_New_Devices",
     "troubleshooting": "Troubleshooting",
     "usbhook": "Inspecting_the_initramfs",
