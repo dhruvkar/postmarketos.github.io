@@ -13,5 +13,5 @@ The migration is scheduled for **Saturday (2018-06-30)**. If you have written an
 Thanks to [@craftyguy](https://gitlab.com/craftyguy) for migrating our CI scripts in [#1539](https://github.com/postmarketOS/pmbootstrap/pull/1539). Also thanks to everyone working at GitHub for providing us with their hosting service for [more than a year](/blog/2018/06/09/one-year/). A good opportunity for Microsoft to follow through with their promises of being nice to the open source community would be opening up GitHub more. In case you think that won't happen and want to move away from GitHub as well, make sure to carefully evaluate all the platforms that are out there. Only because gitlab was the best match for us doesn't mean that you can't find a better one for your project.
 
 ### Comments
-* Reddit
-* HN
+* [Reddit](https://old.reddit.com/r/postmarketOS/duplicates/8u7b3c/postmarketos_is_movingtogitlab/)
+* [HN](https://news.ycombinator.com/item?id=17406156)
