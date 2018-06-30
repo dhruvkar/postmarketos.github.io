@@ -25,6 +25,7 @@ WIKI_REDIRECTS = {
     "deviceinfo": "Deviceinfo_reference",
     "devicepkg": "Device_specific_package",
     "devices": "Supported_devices",
+    "git": "Git_repository_move",
     "irc": "Matrix_and_IRC",
     "matrix": "Matrix_and_IRC",
     "merge": "Merge_Workflow",
