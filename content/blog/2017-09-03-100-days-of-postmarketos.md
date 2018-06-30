@@ -26,7 +26,7 @@ It's not all about running Doom though, there are also individuals in the projec
 The idea of providing a device specific package for QEMU was introduced back in July *"so it will be easier to try the project and/or develop userspace"*. Although the initial PR [#56](https://github.com/postmarketOS/pmbootstrap/pull/56) didn't make it, the idea got picked up again and today we can provide you with an implementation of exactly that vision. **All you need to *dive right into running postmarketOS on QEMU* is to install Python (3.4+), git, QEMU, and run the following commands.** As expected, `pmbootstrap` does everything in chroots in the `install` step, so your host operating system does not get touched.
 
 ```shell
-git clone https://github.com/postmarketOS/pmbootstrap
+git clone https://gitlab.com/postmarketOS/pmbootstrap.git
 cd pmbootstrap
 ./pmbootstrap.py init # choose "qemu-amd64"
 ./pmbootstrap.py install --no-fde
